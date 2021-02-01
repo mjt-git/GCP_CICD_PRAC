@@ -14,9 +14,9 @@ def name(value):
     val = {"value": value}
     return jsonify(val)
 
-@app.route('/bob')
-def bob():
-    val = {"value": "bob"}
+@app.route('/alice')
+def alice():
+    val = {"value": "alice"}
     return jsonify(val)
 
 
